@@ -1,2 +1,2 @@
 # Continent
-- Вёрстка Landing Page [7 Континентов](https://dmitriywolf.github.io/works/continent/index.html)
+- Вёрстка Landing Page: [Seven Continents](https://dmitriywolf.github.io/works/continent/index.html)
