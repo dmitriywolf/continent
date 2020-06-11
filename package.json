@@ -1,5 +1,5 @@
 {
-  "name": "advogrand",
+  "name": "continent",
   "version": "1.0.0",
   "description": "- Вёрстка Landing Page",
   "main": "gulpfile.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dmitriywolf/advogrand.git"
+    "url": "git+https://github.com/dmitriywolf/continent.git"
   },
   "author": "D.Volchenko",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dmitriywolf/advogrand/issues"
+    "url": "https://github.com/dmitriywolf/continent/issues"
   },
-  "homepage": "https://github.com/dmitriywolf/advogrand#readme",
+  "homepage": "https://github.com/dmitriywolf/continent#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
