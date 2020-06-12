@@ -13,9 +13,17 @@
 }
 
 .section__subtitle {
-  padding: 20px 0 65px ;
+  padding: 20px 0 65px;
 
   font-size: 22px;
   font-weight: 700;
   line-height: 1.23;
 }
+
+
+
+.section__subtitle--price {
+  color: #ffffff;
+  background-color: $theme-color;
+}
+
