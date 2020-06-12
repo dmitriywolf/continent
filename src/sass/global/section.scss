@@ -1,0 +1,21 @@
+.section {
+  padding: 100px 0;
+}
+
+.section__header {
+  text-align: center;
+}
+
+.section__title {
+  font-family: $title-font;
+  font-size: 30px;
+  font-weight: 700
+}
+
+.section__subtitle {
+  padding-top: 20px;
+  
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.23;
+}

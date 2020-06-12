@@ -1,0 +1,15 @@
+.button {
+  font-weight: 700;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background-color: $button-bg;
+  border: none;
+}
+
+.button--callback {
+  height: 45px;
+  padding: 16px 29px 19px;
+  font-size: 11px;
+  border-radius: 23px;
+}

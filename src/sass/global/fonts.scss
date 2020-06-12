@@ -8,8 +8,8 @@
 
 @font-face {
   font-family: 'Circe';
-  src: url('Circe-Light.woff2') format('woff2'),
-  url('Circe-Light.woff') format('woff');
+  src: url('../fonts/Circe-Light.woff2') format('woff2'),
+  url('../fonts/Circe-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
@@ -25,8 +25,8 @@
 
 @font-face {
   font-family: 'Circe';
-  src: url('Circe-Bold.woff2') format('woff2'),
-  url('Circe-Bold.woff') format('woff');
+  src: url('../fonts/Circe-Bold.woff2') format('woff2'),
+  url('../fonts/Circe-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }

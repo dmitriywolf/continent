@@ -1,0 +1,35 @@
+.intro {
+  padding: 100px 0 55px;
+
+  background-color: #d8f0f0;
+  background-image: url("../img/bg-intro.jpg"),
+  linear-gradient(-211deg, #d8f0f0 0%, #fdfde0 100%);
+  background-size: cover;
+  background-position: center center;
+}
+
+.intro__title {
+  font-family: $title-font;
+  font-size: 57px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.intro__subtitle {
+  max-width: 450px;
+
+  padding: 35px 0 80px;
+
+  font-family: $title-font;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.33;
+
+  color: #00222d;
+}
+
+.intro__list {
+  margin: 0;
+  padding: 0;
+}
+
