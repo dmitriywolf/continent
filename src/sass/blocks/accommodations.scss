@@ -1,0 +1,24 @@
+.accommodations {
+  background-color: #d8f0f0;
+  background-image: linear-gradient(-211deg, #d8f0f0 0%, #fdfde0 100%);
+}
+
+.accommodations__item {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.accommodations__img-wrapper {
+  min-width: 100px;
+  margin-right: 50px;
+}
+
+.accommodations__title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.accommodations__text {
+  font-size: 17px;
+  font-weight: 300;
+}
