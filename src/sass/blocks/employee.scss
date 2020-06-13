@@ -1,0 +1,28 @@
+.employee {
+  margin-bottom: 50px;
+}
+
+.employee__img-wrapper {
+  text-align: center;
+
+  background-image: url("../img/team/team-bg.jpg");
+  background-repeat: no-repeat;
+}
+
+.employee__name {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.23;
+}
+
+.employee__position {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.59;
+}
+
+.employee__info {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
