@@ -1,10 +1,14 @@
 .consultation {
   background-image: url("../img/consultation/consultation-bg.jpg");
-  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
-
+  background-size: cover;
 }
 
 .consultation__border {
   text-align: center;
+}
+
+.consultation__form {
+  padding-top: 22px;
 }

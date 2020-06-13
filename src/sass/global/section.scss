@@ -1,5 +1,5 @@
 .section {
-  padding: 100px 0;
+  padding: 96px 0 94px;
 }
 
 .section__title {
@@ -7,16 +7,16 @@
   font-size: 30px;
   font-weight: 700;
   text-align: center;
+  line-height: 1;
 }
 
 .section__subtitle {
-  padding: 20px 0 65px;
+  padding: 28px 0 54px;
 
   font-size: 22px;
   font-weight: 700;
   line-height: 1.23;
   text-align: center;
-
 }
 
 .section__subtitle--price {
