@@ -1,47 +1,34 @@
 @import "global/variables";
-
 /*Bootstrap*/
 @import "../../node_modules/bootstrap/scss/bootstrap-reboot";
 @import "../../node_modules/bootstrap/scss/bootstrap-grid";
-
-
 /*Global*/
 @import "global/fonts";
 @import "global/main";
 @import "global/button";
 @import "global/section";
 @import "global/form";
-
-
-
-
-
 /*Blocks*/
 @import "blocks/header";
 @import "blocks/logo";
 @import "blocks/telephones";
-
 @import "blocks/intro";
 @import "blocks/about";
-
 @import "blocks/consultation";
 @import "blocks/rest";
 @import "blocks/rest-nav";
-
 @import "blocks/special";
-
 @import "blocks/rights";
-
 @import "blocks/accommodations";
-
 @import "blocks/team";
 @import "blocks/team-item";
 @import "blocks/employee";
 @import "blocks/employee-info";
-
 @import "blocks/training";
 @import "blocks/training-stage";
-
 @import "blocks/steps";
-
 @import "blocks/our-license";
+@import "blocks/thanks";
+@import "blocks/footer";
+@import "blocks/map";
+@import "blocks/contatcs";
