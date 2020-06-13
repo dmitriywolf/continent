@@ -1,3 +1,30 @@
 .training-stage {
   text-align: center;
 }
+
+.training-stage__number {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.training-stage__img {
+  padding: 30px 0 40px;
+}
+
+.training-stage__title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.training-stage__description {
+  max-width: 220px;
+  margin: 10px auto 0;
+
+  p {
+    padding: 4px 0;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+}

@@ -1,0 +1,18 @@
+.steps {
+  background: url("../img/steps/steps-bg.jpg") no-repeat bottom center;
+}
+
+.steps__item  {
+  padding-top: 80px;
+
+  text-align: center;
+}
+
+.steps__descriptions {
+  max-width: 220px;
+  margin: 30px auto 0;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.38;
+}
