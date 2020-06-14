@@ -1,12 +1,12 @@
 .rights__inner {
-  padding-bottom: 70px;
+  padding-bottom: 68px;
 }
 
 .rights__img-wrapper {
   text-align: center;
-
   background-image: url("../img/rights/rights-bg.jpg");
   background-position: center center;
+  font-size: 0;
 
 }
 
@@ -15,9 +15,11 @@
 }
 
 .rights__title {
+  padding-bottom: 65px;
   font-family: $title-font;
   font-size: 30px;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .rights__text {
@@ -26,8 +28,14 @@
   font-weight: 400;
 
   b {
+    display: inline-block;
     max-width: 300px;
+    padding: 65px 0 22px;
     font-size: 22px;
     font-weight: 700;
   }
+}
+
+.rights__form {
+  padding-bottom: 8px;
 }

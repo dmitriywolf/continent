@@ -96,6 +96,16 @@ function jsBuild() {
         .pipe(gulp.dest('./dist/js'))
 }
 
+function copyImg() {
+    return gulp.src("./src/img/**/*.*")
+        .pipe(gulp.dest('./dist/img/'))
+}
+
+function copyFonts() {
+    return gulp.src("./src/fonts/**/*.*")
+        .pipe(gulp.dest('./dist/fonts/'))
+}
+
 //Удалить всё в указанной папке
 function clean() {
     return del(['./dist/*'])
@@ -106,4 +116,4 @@ function clean() {
 gulp.task('default', gulp.parallel('style', 'browser-sync', 'watch'));
 
 //Таск сборки
-gulp.task('build', gulp.series(clean, gulp.parallel(cssBuild, jsBuild)));
+gulp.task('build', gulp.series(clean, gulp.parallel(layoutHTML, copyImg, copyFonts, cssBuild, jsBuild)));

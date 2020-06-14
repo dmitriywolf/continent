@@ -4,6 +4,7 @@
 
 .rest__list {
   padding-top: 40px;
+  padding-bottom: 10px;
 }
 
 .rest__item {
@@ -16,44 +17,24 @@
 }
 
 .rest__content {
-  padding: 30px 0 10px;
+  padding: 26px 0 10px;
 }
 
 .rest__title {
-  padding-bottom: 15px;
-
+  padding-bottom: 14px;
   font-size: 18px;
   font-weight: 700;
 }
 
 .rest__text {
   padding-bottom: 30px;
-
   font-size: 14px;
   font-weight: 300;
 }
 
 .rest__link {
-  position: relative;
-}
-
-.rest__link-text {
   font-size: 18px;
   font-weight: 700;
-  color: #001e28;
-  z-index: 10;
 }
 
-.rest__link-border {
-  position: absolute;
-
-  bottom: -7px;
-  left: 0;
-
-  display: block;
-  width: 95px;
-  height: 20px;
-  background-color: #ffaf02;
-  z-index: 1;
-}
 

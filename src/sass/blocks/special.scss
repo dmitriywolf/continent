@@ -5,8 +5,13 @@
 
 .special .section__subtitle {
   max-width: 625px;
+  padding-top: 22px;
   margin: 0 auto;
-  line-height: 1.86;
+  line-height: 1.864;
+}
+
+.special__gallery {
+  padding-top: 14px;
 }
 
 .special__info-list {
@@ -23,4 +28,8 @@
   max-width: 222px;
   font-size: 20px;
 
+}
+
+.special__form {
+  padding-bottom: 5px;
 }

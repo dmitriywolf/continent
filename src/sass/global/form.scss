@@ -1,5 +1,5 @@
 .form__wrapper {
-  padding: 60px 0;
+  padding: 58px 0;
   background-color: #ffffff;
   border: 10px solid #d8f0f0;
 }
@@ -16,21 +16,20 @@
   background-repeat: no-repeat;
 }
 
-
-.form__inner {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
 .form__title {
   font-size: 22px;
   font-weight: 700;
   text-align: center;
 }
 
+.form__inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 
 .form__subtitle {
-  padding: 30px 0 32px;
+  padding: 24px 0 32px;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.68;
