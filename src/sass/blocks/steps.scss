@@ -2,17 +2,27 @@
   background: url("../img/steps/steps-bg.jpg") no-repeat bottom center;
 }
 
-.steps__item  {
-  padding-top: 80px;
+.steps__list {
+  padding-top: 15px;
+  padding-bottom: 4px;
+}
 
+.steps__item  {
+  padding-top: 92px;
   text-align: center;
 }
 
 .steps__descriptions {
   max-width: 220px;
-  margin: 30px auto 0;
+  margin: 33px auto 0;
 
   font-size: 16px;
   font-weight: 400;
   line-height: 1.38;
+}
+
+.steps__link {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.69;
 }

@@ -3,6 +3,11 @@
   background-image: linear-gradient(-211deg, #d8f0f0 0%, #fdfde0 100%);
 }
 
+.accommodations__list {
+  padding-top: 50px;
+  margin-bottom: -20px;
+}
+
 .accommodations__item {
   padding-top: 45px;
   padding-bottom: 45px;
@@ -19,6 +24,7 @@
 }
 
 .accommodations__text {
+  padding-top: 20px;
   font-size: 17px;
   font-weight: 300;
 }

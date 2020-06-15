@@ -10,9 +10,14 @@
   line-height: 1;
 }
 
+.section__title--long {
+  max-width: 960px;
+  margin: 0 auto;
+  line-height: 1.2;
+}
+
 .section__subtitle {
   padding: 28px 0 54px;
-
   font-size: 22px;
   font-weight: 700;
   line-height: 1.23;

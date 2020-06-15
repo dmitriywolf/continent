@@ -5,6 +5,9 @@
 }
 
 .training__subtitle {
+  max-width: 540px;
+  margin: 0 auto;
+
   font-size: 22px;
   font-weight: 700;
   line-height: 1.23;
@@ -12,6 +15,6 @@
 }
 
 .training__stages {
-  padding-top: 50px;
-  padding-bottom: 70px;
+  padding-top: 48px;
+  padding-bottom: 100px;
 }

@@ -1,10 +1,10 @@
 .employee {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  padding-top: 2px;
 }
 
 .employee__img-wrapper {
   text-align: center;
-
   background-image: url("../img/team/team-bg.jpg");
   background-repeat: no-repeat;
 }
@@ -16,6 +16,7 @@
 }
 
 .employee__position {
+  padding-top: 20px;
   font-size: 17px;
   font-weight: 300;
   line-height: 1.59;
