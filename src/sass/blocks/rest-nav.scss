@@ -102,15 +102,45 @@
   //    color: #ffffff;
   //  }
   //}
+}
 
+@media (max-width: 768px) {
+  .rest-nav {
+    //padding-top: 0;
+    //border-bottom: 8px solid #ffaf02;
+    //border-width: 4px;
+    //margin: 0;
+  }
 
+  .rest-nav__item-wrapper {
+    padding: 0 2px;
+  }
 
+  .rest-nav__item {
+    border-radius: 5px 5px 0 0;
+    //background-color: #d8f0f0;
 
+    p {
+      //max-width: 130px;
+      //margin: 0 auto;
+      padding: 5px 0;
+      font-size: 14px;
+      font-weight: 400;
+      //text-align: center;
+    }
+  }
 
+  //.rest-nav__item-wrapper:first-child {
+  //  p {
+  //    max-width: 220px;
+  //  }
+  //}
 
-
-
-
-
-
+  //.rest-nav__item.active {
+  //  background-color: #ffaf02;
+  //
+  //  p {
+  //    color: #ffffff;
+  //  }
+  //}
 }

@@ -55,9 +55,6 @@
     line-height: 1.2;
     //color: #00222d;
   }
-
-
-
 }
 
 @media (max-width: 990px) {
@@ -86,8 +83,35 @@
     //line-height: 1.2;
     //color: #00222d;
   }
+}
 
 
 
 
+@media (max-width: 768px) {
+  .intro {
+    padding: 60px 0 35px;
+    //background-color: #d8f0f0;
+    //background-image: url("../img/intro/intro-bg.jpg"),
+    //linear-gradient(-211deg, #d8f0f0 0%, #fdfde0 100%);
+    //background-size: cover;
+    //background-position: 35% center;
+  }
+
+  .intro__title {
+    //font-family: $title-font;
+    font-size: 34px;
+    //font-weight: 700;
+    //line-height: 1;
+  }
+
+  .intro__subtitle {
+    //max-width: 450px;
+    padding: 20px 0 40px;
+    //font-family: $title-font;
+    font-size: 20px;
+    //font-weight: 700;
+    //line-height: 1.2;
+    //color: #00222d;
+  }
 }

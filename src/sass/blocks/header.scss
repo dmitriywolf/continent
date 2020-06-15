@@ -35,6 +35,21 @@
      line-height: 3.8;
      border-radius: 19px;
    }
+ }
 
+ @media (max-width: 768px) {
+   //.header__inner {
+   //  padding: 5px 0;
+   //}
 
+   .header__telephones {
+     margin-right: 15px;
+   }
+
+   .header__button {
+     padding: 0 15px;
+     //font-size: 10px;
+     line-height: 3.4;
+     border-radius: 17px;
+   }
  }

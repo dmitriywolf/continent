@@ -19,14 +19,27 @@
   }
 
   .logo__text {
-    max-width: 140px;
+    //max-width: 140px;
 
     p {
       //margin: 0;
       font-size: 14px;
     }
+  }
+}
 
+@media (max-width: 768px) {
+  .logo__img {
+    width: 45px;
+    margin-right: 10px;
   }
 
+  .logo__text {
+    //max-width: 140px;
 
+    p {
+      //margin: 0;
+      //font-size: 14px;
+    }
+  }
 }

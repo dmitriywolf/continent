@@ -104,11 +104,47 @@
   //  padding: 0;
   //}
 
+}
 
+@media (max-width: 768px) {
+  .special .section__subtitle {
+    //max-width: 625px;
+    //padding-top: 20px;
+    //margin: 0 auto;
+    //line-height: 1.4;
+  }
 
+  .special__gallery {
+    margin: 0 -5px;
+    padding: 0;
+  }
 
+  .special__img {
+    padding: 5px;
+  }
 
+  .special__info-list {
+    padding: 40px 0;
+  }
 
+  .special__info-item {
+    padding: 0 5px;
+    text-align: center;
+  }
 
+  .special__info-img {
+    min-width: 40px;
+    margin: 0 auto 10px;
+    text-align: center;
+  }
+
+  .special__text {
+    //max-width: auto;
+    //font-size: 14px;
+  }
+
+  //.special__form {
+  //  padding: 0;
+  //}
 
 }
