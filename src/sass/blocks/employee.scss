@@ -52,8 +52,30 @@
     //font-weight: 300;
     line-height: 1.2;
   }
+}
 
+@media (max-width: 990px) {
+  //.employee {
+  //  margin: 0;
+  //  padding: 0;
+  //}
 
+  .employee__img-wrapper {
+    //text-align: center;
+    //background-image: none;
+    //background-repeat: no-repeat;
+  }
 
+  .employee__name {
+    font-size: 18px;
+    //font-weight: 700;
+    //line-height: 1.2;
+  }
 
+  .employee__position {
+    padding-top: 5px;
+    font-size: 15px;
+    //font-weight: 300;
+    //line-height: 1.2;
+  }
 }

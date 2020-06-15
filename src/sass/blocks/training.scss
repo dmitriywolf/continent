@@ -34,8 +34,21 @@
     padding-top: 30px;
     padding-bottom: 50px;
   }
+}
 
+@media (max-width: 990px) {
+  .training__subtitle {
+    //max-width: 540px;
+    //margin: 0 auto;
 
+    font-size: 18px;
+    //font-weight: 700;
+    line-height: 1.2;
+    //text-align: center;
+  }
 
-
+  .training__stages {
+    //padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }

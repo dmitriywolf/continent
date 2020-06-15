@@ -33,8 +33,22 @@
     font-size: 16px;
     //font-weight: 400;
   }
+}
 
+@media (max-width: 990px) {
+  .licenses__list {
+    padding-top: 50px;
+  }
 
+  .licenses__item {
+    padding: 0 5px;
+    text-align: center;
+  }
 
-
+  .licenses__title {
+    //max-width: 240px;
+    margin: 10px auto 0;
+    font-size: 15px;
+    //font-weight: 400;
+  }
 }

@@ -73,6 +73,44 @@
     font-size: 16px;
     /*font-weight: 700;*/
   }
+}
+
+@media (max-width: 990px) {
+  .rest__list {
+    padding: 15px 0 0;
+  }
+
+  .rest__item {
+    padding: 0;
+    //border: 1px solid #d8f0f0;
+
+    //&:hover {
+    //  border-color: #ffaf02;
+    //}
+  }
+
+  .rest__content {
+    padding: 15px 0 10px;
+  }
+
+  .rest__title {
+    padding-bottom: 10px;
+    font-size: 15px;
+    //font-weight: 700;
+  }
+
+  .rest__text {
+    padding-bottom: 20px;
+    font-size: 14px;
+    //font-weight: 300;
+    //text-align: center;
+  }
+
+  .rest__link {
+    font-size: 15px;
+    /*font-weight: 700;*/
+  }
+
 
 
 

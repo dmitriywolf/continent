@@ -33,8 +33,29 @@
     //font-weight: 300;
     line-height: 1.2;
   }
+}
 
+@media (max-width: 990px) {
+  .team__item {
+    text-align: center;
+  }
 
+  .team-item__img-wrapper {
+    min-width: 60px;
+    width: 60px;
+    margin: 0 auto 10px;
+  }
 
+  .team-item__name {
+    //font-size: 15px;
+    //font-weight: 700;
+    //line-height: 1.4;
+  }
+
+  .team-item__position {
+    //font-size: 14px;
+    //font-weight: 300;
+    //line-height: 1.2;
+  }
 
 }

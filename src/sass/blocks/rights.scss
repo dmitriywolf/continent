@@ -78,6 +78,53 @@
       //font-weight: 700;
     }
   }
+}
+
+@media (max-width: 990px) {
+
+  .rights__inner {
+    padding-bottom: 40px;
+  }
+
+  //.rights__img-wrapper {
+  //  text-align: center;
+  //  background-image: url("../img/rights/rights-bg.jpg");
+  //  background-position: center center;
+  //  font-size: 0;
+  //}
+
+  //.rights__content {
+  //  padding-right: 15px;
+  //}
+
+  .rights__title {
+    padding-bottom: 20px;
+    //font-family: $title-font;
+    font-size: 22px;
+    //font-weight: 700;
+    //line-height: 1.2;
+  }
+
+  .rights__text {
+    //max-width: 100%;
+    font-size: 15px;
+    //font-weight: 400;
+
+    b {
+      //display: inline-block;
+      //max-width: 100%;
+      padding: 15px 0;
+      font-size: 17px;
+      //font-weight: 700;
+    }
+  }
+
+
+
+
+
+
+
 
 
 

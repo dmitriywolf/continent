@@ -59,3 +59,35 @@
 
 
 }
+
+@media (max-width: 990px) {
+  .intro {
+    padding: 70px 0 40px;
+    //background-color: #d8f0f0;
+    //background-image: url("../img/intro/intro-bg.jpg"),
+    //linear-gradient(-211deg, #d8f0f0 0%, #fdfde0 100%);
+    //background-size: cover;
+    background-position: 35% center;
+  }
+
+  .intro__title {
+    //font-family: $title-font;
+    font-size: 42px;
+    //font-weight: 700;
+    //line-height: 1;
+  }
+
+  .intro__subtitle {
+    //max-width: 450px;
+    padding: 25px 0 45px;
+    //font-family: $title-font;
+    font-size: 24px;
+    //font-weight: 700;
+    //line-height: 1.2;
+    //color: #00222d;
+  }
+
+
+
+
+}

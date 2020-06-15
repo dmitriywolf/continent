@@ -43,7 +43,33 @@
     //font-weight: 700;
     line-height: 1.2;
   }
+}
 
+@media (max-width: 990px) {
+  .about__item,
+  .about__item:last-child {
+    //max-width: 460px;
+    margin-bottom: 20px;
+  }
+
+  .about__img {
+    min-width: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
+
+  .about__title {
+    font-size: 15px;
+    //font-weight: 700;
+    //line-height: 1.2;
+  }
+
+  .about__subtitle {
+    padding-top: 0;
+    font-size: 14px;
+    //font-weight: 300;
+    line-height: 1.3;
+  }
 
 
 

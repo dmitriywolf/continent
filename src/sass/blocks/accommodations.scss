@@ -58,3 +58,43 @@
   }
 
 }
+
+@media (max-width: 990px) {
+  .accommodations__list {
+    padding-top: 35px;
+    margin-bottom: -15px;
+  }
+
+  .accommodations__item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .accommodations__img-wrapper {
+    min-width: 80px;
+    width: 80px;
+
+    margin: 0 0 20px;
+  }
+
+  .accommodations__content {
+    text-align: center;
+  }
+
+  .accommodations__title {
+    font-size: 18px;
+    //font-weight: 700;
+  }
+
+  .accommodations__text {
+    //padding-top: 5px;
+    font-size: 15px;
+    //font-weight: 300;
+  }
+
+
+
+
+
+
+}

@@ -37,5 +37,29 @@
     padding: 0;
   }
 
+}
+
+@media (max-width: 990px) {
+  //.thanks {
+  //  background-image: url("../img/thanks/thanks-bg.png");
+  //  background-repeat: no-repeat;
+  //  background-position: top center;
+  //}
+
+  .thanks__item {
+    padding: 0 10px;
+  }
+
+  .thanks__title {
+    padding-top: 35px;
+    padding-bottom: 25px;
+    font-size: 18px;
+    //font-weight: 700;
+    //text-align: center;
+  }
+
+  .thanks__list {
+    padding: 0;
+  }
 
 }

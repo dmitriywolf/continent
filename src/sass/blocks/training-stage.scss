@@ -72,13 +72,72 @@
   }
 
   .training-stage__description {
-    max-width: 220px;
+    //max-width: 220px;
     //margin: 10px auto 0;
     margin-top: 5px;
 
     p {
       padding: 4px 0;
       font-size: 14px;
+      //font-weight: 300;
+    }
+  }
+
+
+}
+
+@media (max-width: 990px) {
+  .training-stage {
+    padding-bottom: 20px;
+     //text-align: center;
+   }
+
+  .training-stage__number {
+    //font-size: 14px;
+    //font-weight: 300;
+  }
+
+  .training-stage__img {
+    //position: relative;
+    //padding: 20px 0;
+
+    //&:after {
+    //  content: "";
+    //  position: absolute;
+    //  top: calc(50% - 12px);
+    //  right: -47px;
+    //  width: 64px;
+    //  height: 24px;
+    //  background-image: url("../img/drawn-arrow.png");
+    //}
+  }
+
+  //.training__stage:last-child {
+  //  .training-stage__img:after {
+  //    content: none;
+  //  }
+  //}
+
+  .training-stage:nth-child(2n) {
+    .training-stage__img:after {
+      content: none;
+    }
+  }
+
+  .training-stage__title {
+    font-size: 17px;
+    //font-weight: 700;
+    //line-height: 1.2;
+  }
+
+  .training-stage__description {
+    max-width: 260px;
+    //margin: 10px auto 0;
+    margin-top: 5px;
+
+    p {
+      padding: 4px 0;
+      //font-size: 14px;
       //font-weight: 300;
     }
   }

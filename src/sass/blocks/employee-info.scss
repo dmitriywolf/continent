@@ -31,8 +31,24 @@
     //background-position: left center;
     //background-repeat: no-repeat;
   }
+}
 
+@media (max-width: 990px) {
+  .employee-info__list {
+    margin-top: 10px;
+  }
 
+  .employee-info__item {
+    padding: 5px 0 5px 20px;
+    margin: 0;
 
+    font-size: 15px;
+    //font-weight: 300;
+    //line-height: 1.2;
 
+    //background-image: url("../img/team/tick.png");
+    //background-position: left center;
+    //background-repeat: no-repeat;
+    background-size: 15px 15px;
+  }
 }
