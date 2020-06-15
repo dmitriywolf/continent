@@ -27,3 +27,33 @@
   padding: 0;
   list-style: none;
 }
+
+@media (max-width: 1230px) {
+  .employee {
+    margin: 0;
+    padding: 0;
+  }
+
+  .employee__img-wrapper {
+    //text-align: center;
+    background-image: none;
+    //background-repeat: no-repeat;
+  }
+
+  .employee__name {
+    font-size: 20px;
+    //font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .employee__position {
+    padding-top: 10px;
+    font-size: 16px;
+    //font-weight: 300;
+    line-height: 1.2;
+  }
+
+
+
+
+}

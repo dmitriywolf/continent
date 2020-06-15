@@ -14,3 +14,27 @@
   font-weight: 300;
   line-height: 1.43;
 }
+
+@media (max-width: 1230px) {
+  .team-item__img-wrapper {
+    min-width: 50px;
+    width: 50px;
+    margin-right: 10px;
+  }
+
+  .team-item__name {
+    font-size: 15px;
+    //font-weight: 700;
+    line-height: 1.4;
+  }
+
+  .team-item__position {
+    //font-size: 14px;
+    //font-weight: 300;
+    line-height: 1.2;
+  }
+
+
+
+
+}

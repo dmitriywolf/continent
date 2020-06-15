@@ -13,3 +13,26 @@
   background-position: left center;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 1230px) {
+  .employee-info__list {
+    margin-top: 20px;
+  }
+
+  .employee-info__item {
+    padding: 5px 0 5px 40px;
+    margin: 5px 0;
+
+    font-size: 16px;
+    //font-weight: 300;
+    line-height: 1.2;
+
+    //background-image: url("../img/team/tick.png");
+    //background-position: left center;
+    //background-repeat: no-repeat;
+  }
+
+
+
+
+}

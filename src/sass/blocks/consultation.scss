@@ -12,3 +12,19 @@
 .consultation__form {
   padding-top: 28px;
 }
+
+@media (max-width: 1230px) {
+  .consultation {
+    //background-image: url("../img/consultation/consultation-bg.jpg");
+    //background-repeat: no-repeat;
+    background-position: 45% center;
+    //background-size: cover;
+  }
+
+  .consultation__form {
+    padding-top: 25px;
+  }
+
+
+
+}

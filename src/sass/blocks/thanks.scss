@@ -17,3 +17,25 @@
   padding-top: 17px;
   padding-bottom: 8px;
 }
+
+@media (max-width: 1230px) {
+  //.thanks {
+  //  background-image: url("../img/thanks/thanks-bg.png");
+  //  background-repeat: no-repeat;
+  //  background-position: top center;
+  //}
+
+  .thanks__title {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    //font-weight: 700;
+    //text-align: center;
+  }
+
+  .thanks__list {
+    padding: 0;
+  }
+
+
+}

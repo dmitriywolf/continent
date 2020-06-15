@@ -29,3 +29,26 @@
   background-color: $theme-color;
 }
 
+@media (max-width: 1230px) {
+  .section {
+    padding: 80px;
+  }
+
+  .section__title {
+    font-size: 28px;
+    //font-weight: 700;
+    //text-align: center;
+    //line-height: 1;
+  }
+
+  .section__subtitle {
+    padding: 20px 0 35px;
+    font-size: 20px;
+    //font-weight: 700;
+    line-height: 1.2;
+    //text-align: center;
+  }
+
+
+
+}

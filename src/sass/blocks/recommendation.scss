@@ -23,3 +23,31 @@
   font-weight: 700;
   color: #000000;
 }
+
+@media (max-width: 1230px) {
+  .recommendation__description {
+    //position: absolute;
+    //bottom: 0;
+    //left: 0;
+
+    width: 100%;
+    padding: 10px 35px;
+    //text-align: center;
+    //    //background-color: #cce9e6;
+
+    p {
+      //font-size: 14px;
+      //font-weight: 300;
+    }
+  }
+
+  .recommendation__author {
+    //font-size: 14px;
+    //font-weight: 700;
+    //color: #000000;
+  }
+
+
+
+
+}

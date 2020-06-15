@@ -38,3 +38,43 @@
 }
 
 
+@media (max-width: 1230px) {
+  .rest__list {
+    padding: 25px 0 0;
+  }
+
+  .rest__item {
+    padding: 10px;
+    //border: 1px solid #d8f0f0;
+
+    //&:hover {
+    //  border-color: #ffaf02;
+    //}
+  }
+
+  .rest__content {
+    padding: 20px 0 10px;
+  }
+
+  .rest__title {
+    padding-bottom: 10px;
+    font-size: 16px;
+    //font-weight: 700;
+  }
+
+  .rest__text {
+    padding-bottom: 25px;
+    font-size: 14px;
+    //font-weight: 300;
+    text-align: center;
+  }
+
+  .rest__link {
+    font-size: 16px;
+    /*font-weight: 700;*/
+  }
+
+
+
+
+}

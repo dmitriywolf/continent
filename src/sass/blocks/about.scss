@@ -24,3 +24,29 @@
   font-weight: 300;
   line-height: 1.43;
 }
+
+@media (max-width: 1230px) {
+
+  .about__item,
+  .about__item:last-child {
+    max-width: 460px;
+    margin-bottom: 25px;
+  }
+
+  .about__img {
+    min-width: 45px;
+    margin-right: 20px;
+  }
+
+  .about__title {
+    font-size: 17px;
+    //font-weight: 700;
+    line-height: 1.2;
+  }
+
+
+
+
+
+
+}

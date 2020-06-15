@@ -5,11 +5,16 @@
   color: #ffffff;
   background-color: $button-bg;
   border: none;
+  transition: all 0.3s linear;
+
+  &:hover {
+    background-color: $hover-color;
+  }
 }
 
 .button--callback {
-  height: 45px;
-  padding: 16px 29px 19px;
+  padding: 0 26px;
   font-size: 11px;
+  line-height: 4.09;
   border-radius: 23px;
 }
