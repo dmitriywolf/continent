@@ -1,0 +1,157 @@
+.popup__wrapper {
+  display: none;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.popup__wrapper.show {
+  display: flex;
+}
+
+.popup {
+  position: relative;
+  max-width: 360px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 30px 30px 40px;
+  z-index: 100;
+}
+
+.popup__close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+
+  width: 20px;
+  height: 20px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:before,
+  &:after {
+    position: absolute;
+    content: '';
+    left: 10px;
+    height: 18px;
+    width: 2px;
+    background-color: #666666;
+  }
+
+  &:before {
+    transform: rotate(45deg);
+  }
+
+  &:after {
+    transform: rotate(-45deg);
+  }
+}
+
+.popup__title {
+  margin: 20px auto 10px;
+  font-family: $title-font;
+  font-size: 16px;
+}
+
+.popup__label {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 16px;
+    left: 40px;
+    display: block;
+  }
+
+  &--name::after {
+    width: 15px;
+    height: 18px;
+    background-image: url("../img/form/user-name.png");
+  }
+
+  &--tel::after {
+    top: 17px;
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/form/user-tel.png");
+  }
+}
+
+.popup__label,
+.popup__button-wrapper {
+  margin: 8px 0;
+}
+
+.popup__input {
+  width: 100%;
+  padding: 10px 10px 10px 55px;
+
+  border-radius: 26px;
+  border: 1px solid #666666;
+  line-height: 2;
+}
+
+.popup__input,
+.popup__input::placeholder {
+  font-family: $main-font;
+  font-size: 15px;
+  font-weight: 300;
+  color: #666666;
+}
+
+.popup__button {
+  width: 100%;
+  font-family: $main-font;
+  font-size: 12px;
+  line-height: 4.33;
+  border-radius: 26px;
+}
+
+@media (max-width: 767px) {
+  .popup {
+    max-width: 340px;
+    padding: 25px;
+  }
+
+  .popup__title {
+    margin: 15px auto 10px;
+    font-size: 14px;
+  }
+
+  .popup__label {
+    position: relative;
+
+    &::after {
+      top: 12px;
+    }
+
+    &--tel::after {
+      top: 14px;
+    }
+  }
+
+  .popup__label,
+  .popup__button-wrapper {
+    margin: 4px 0;
+  }
+
+  .popup__input {
+    padding: 6px 6px 6px 50px;
+    border-radius: 22px;
+  }
+
+  .popup__button {
+    line-height: 3.67;
+    border-radius: 22px;
+  }
+}
