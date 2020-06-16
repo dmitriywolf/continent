@@ -1,0 +1,68 @@
+.pageup {
+  position: fixed;
+  bottom: 80px;
+  right: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 46px;
+  height: 46px;
+
+  background-color: #fff;
+  border-radius: 50%;
+  transition: all linear 0.4s;
+  box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.4);
+
+  z-index: 4;
+  opacity: 0;
+
+  &:active {
+    box-shadow: none;
+  }
+}
+
+.pageup__icon {
+  fill: #007ca5;
+  transition: 0.4s linear;
+
+  &:hover {
+    fill: #cce9e6;
+  }
+
+  &:active {
+    transform: scale(1.1);
+  }
+}
+
+
+@media (max-width: 990px) {
+  .pageup {
+    bottom: 60px;
+    right: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .pageup {
+    bottom: 40px;
+    right: 40px;
+
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media (max-width: 575px) {
+  .pageup {
+    bottom: 30px;
+    right: 30px;
+  }
+
+  .pageup__icon {
+    width: 20px;
+    height: 20px;
+  }
+
+}

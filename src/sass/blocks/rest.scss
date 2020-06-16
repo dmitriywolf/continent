@@ -3,8 +3,13 @@
 }
 
 .rest__list {
+  display: none !important;
   padding-top: 40px;
   padding-bottom: 10px;
+}
+
+.rest__list.active {
+  display: flex !important;
 }
 
 .rest__item {
@@ -165,7 +170,7 @@
   }
 
   .rest__content {
-    padding: 15px 0 10px;
+    padding: 15px 0 25px;
   }
 
   .rest__title {

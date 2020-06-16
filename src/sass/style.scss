@@ -3,6 +3,7 @@
 @import "../../node_modules/bootstrap/scss/bootstrap-reboot";
 @import "../../node_modules/bootstrap/scss/bootstrap-grid";
 /*Global*/
+@import "global/animate";
 @import "global/fonts";
 @import "global/main";
 @import "global/button";
@@ -33,3 +34,5 @@
 @import "blocks/map";
 @import "blocks/contatcs";
 @import "blocks/popup";
+@import "blocks/popup-answer";
+@import "blocks/pageup";

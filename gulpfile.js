@@ -80,7 +80,7 @@ function cssBuild() {
 //Сборка JS
 //Порядок подключения js файлов
 const jsFiles = [
-    './src/js/lib.js',
+    './src/js/lib/*.js',
     './src/js/main.js'
 ];
 

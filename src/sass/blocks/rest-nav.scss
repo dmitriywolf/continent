@@ -23,6 +23,11 @@
   }
 }
 
+.rest-nav__item {
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
 .rest-nav__item.active {
   background-color: #ffaf02;
 
