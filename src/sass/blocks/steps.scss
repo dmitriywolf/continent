@@ -42,9 +42,39 @@
 }
 
 .steps__link {
+  position: relative;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.69;
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: #000000;
+    text-decoration: none;
+  }
+}
+
+.steps__link::before {
+  position: absolute;
+  content: "";
+  display: block;
+
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 4px;
+
+  background-color: #ffaf02;
+  z-index: -1;
+  transition: all 0.3s linear;
+}
+
+.steps__link:hover:before, .steps__link:focus:before {
+  height: 13px;
+
 }
 
 

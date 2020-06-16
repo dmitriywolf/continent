@@ -16,6 +16,41 @@
   }
 }
 
+.rest__img-wrapper {
+  position: relative;
+  max-width: 340px;
+  margin: 0 auto;
+}
+
+.rest__img-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient(to top, #001e28 0%, rgba(0, 30, 40, 0) 100%);
+}
+
+.rest__location,
+.rest__clients {
+  padding: 12px 0;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.rest__location {
+  padding-left: 35px;
+  background-image: url("../img/rest/rest-local-icon.png");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+
+.rest__clients {
+  padding: 12px 14px 12px 30px;
+  background-image: url("../img/rest/rest-client-icon.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
 .rest__content {
   padding: 26px 0 10px;
 }
@@ -33,8 +68,31 @@
 }
 
 .rest__link {
+  position: relative;
   font-size: 18px;
   font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+
+.rest__link::before {
+  position: absolute;
+  content: "";
+  display: block;
+
+  bottom: -8px;
+  left: 0;
+
+  width: 100%;
+  height: 6px;
+
+  background-color: #ffaf02;
+  z-index: -1;
+  transition: all 0.3s linear;
+}
+
+.rest__link:hover:before, .rest__link:focus:before {
+  height: 17px;
 }
 
 
@@ -45,6 +103,20 @@
 
   .rest__item {
     padding: 10px;
+  }
+
+  .rest__location,
+  .rest__clients {
+    font-size: 10px;
+  }
+
+  .rest__location {
+    padding-left: 25px;
+    background-position: 5px center;
+  }
+
+  .rest__clients {
+    padding: 12px 5px 12px 22px;
   }
 
   .rest__content {
@@ -74,6 +146,22 @@
 
   .rest__item {
     padding: 0;
+  }
+
+  .rest__location,
+  .rest__clients {
+    font-size: 10px;
+  }
+
+  .rest__location {
+    padding-left: 17px;
+    background-size: 12px 16px;
+    background-position: 2px center;
+  }
+
+  .rest__clients {
+    padding: 12px 2px 12px 15px;
+    background-size: 13px 13px;
   }
 
   .rest__content {
@@ -127,6 +215,20 @@
 
   .rest__img-wrapper {
     text-align: center;
+  }
+
+  .rest__location,
+  .rest__clients {
+    font-size: 12px;
+  }
+
+  .rest__location {
+    padding-left: 27px;
+    background-position: 5px center;
+  }
+
+  .rest__clients {
+    padding: 12px 10px 12px 25px;
   }
 
   .rest__text {
