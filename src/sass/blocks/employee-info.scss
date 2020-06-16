@@ -4,11 +4,9 @@
 
 .employee-info__item {
   padding: 8px 0 7px 55px;
-
   font-size: 17px;
   font-weight: 300;
   line-height: 1.6;
-
   background-image: url("../img/team/tick.png");
   background-position: left center;
   background-repeat: no-repeat;
@@ -22,14 +20,8 @@
   .employee-info__item {
     padding: 5px 0 5px 40px;
     margin: 5px 0;
-
     font-size: 16px;
-    //font-weight: 300;
     line-height: 1.2;
-
-    //background-image: url("../img/team/tick.png");
-    //background-position: left center;
-    //background-repeat: no-repeat;
   }
 }
 
@@ -41,14 +33,13 @@
   .employee-info__item {
     padding: 5px 0 5px 20px;
     margin: 0;
-
     font-size: 15px;
-    //font-weight: 300;
-    //line-height: 1.2;
-
-    //background-image: url("../img/team/tick.png");
-    //background-position: left center;
-    //background-repeat: no-repeat;
     background-size: 15px 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .employee-info__list {
+    display: none;
   }
 }

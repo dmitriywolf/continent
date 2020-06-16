@@ -13,55 +13,27 @@
   &:hover {
     color: $hover-color;
   }
-
 }
 
 @media (max-width: 1230px) {
   .telephones__number {
     font-size: 16px;
   }
-
-
 }
 
 @media (max-width: 990px) {
   .telephones__text {
-    //font-size: 13px;
-    //font-weight: 300;
     display: none;
   }
 
   .telephones__number {
-    //font-family: $title-font;
     font-size: 15px;
-    //font-weight: 700;
-    //color: $text-color;
-    //transition: all 0.3s linear;
-
-    //&:hover {
-    //  color: $hover-color;
-    //}
-
   }
 }
 
-@media (max-width: 768px) {
-  .telephones__text {
-    //font-size: 13px;
-    //font-weight: 300;
-    //display: none;
-  }
-
+@media (max-width: 767px) {
   .telephones__number {
-    //font-family: $title-font;
     font-size: 14px;
-    //font-weight: 700;
-    //color: $text-color;
-    //transition: all 0.3s linear;
-
-    //&:hover {
-    //  color: $hover-color;
-    //}
-
   }
 }
+

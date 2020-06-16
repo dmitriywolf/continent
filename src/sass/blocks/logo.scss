@@ -19,27 +19,26 @@
   }
 
   .logo__text {
-    //max-width: 140px;
-
     p {
-      //margin: 0;
       font-size: 14px;
     }
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .logo__img {
     width: 45px;
     margin-right: 10px;
   }
 
-  .logo__text {
-    //max-width: 140px;
+}
 
-    p {
-      //margin: 0;
-      //font-size: 14px;
-    }
+@media (max-width: 575px) {
+  .logo__img {
+    width: 50px;
+  }
+
+  .logo__text {
+    display: none;
   }
 }

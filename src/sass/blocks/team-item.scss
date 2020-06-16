@@ -24,13 +24,10 @@
 
   .team-item__name {
     font-size: 15px;
-    //font-weight: 700;
     line-height: 1.4;
   }
 
   .team-item__position {
-    //font-size: 14px;
-    //font-weight: 300;
     line-height: 1.2;
   }
 }
@@ -46,16 +43,17 @@
     margin: 0 auto 10px;
   }
 
-  .team-item__name {
-    //font-size: 15px;
-    //font-weight: 700;
-    //line-height: 1.4;
+}
+
+@media (max-width: 575px) {
+  .team__item {
+    max-width: 360px;
+    margin: 0 auto 15px;
+    text-align: left;
   }
 
-  .team-item__position {
-    //font-size: 14px;
-    //font-weight: 300;
-    //line-height: 1.2;
+  .team-item__img-wrapper {
+    margin: 0 15px 0 0;
   }
 
 }

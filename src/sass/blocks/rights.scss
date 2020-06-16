@@ -7,8 +7,6 @@
   background-image: url("../img/rights/rights-bg.jpg");
   background-position: center center;
   font-size: 0;
-
-
 }
 
 .rights__content {
@@ -46,117 +44,79 @@
     padding-bottom: 45px;
   }
 
-  //.rights__img-wrapper {
-  //  text-align: center;
-  //  background-image: url("../img/rights/rights-bg.jpg");
-  //  background-position: center center;
-  //  font-size: 0;
-  //}
-
   .rights__content {
     padding-right: 15px;
   }
 
   .rights__title {
     padding-bottom: 30px;
-    //font-family: $title-font;
     font-size: 28px;
-    //font-weight: 700;
-    //line-height: 1.2;
   }
 
   .rights__text {
     max-width: 100%;
     font-size: 18px;
-    //font-weight: 400;
 
     b {
-      //display: inline-block;
       max-width: 100%;
       padding: 30px 0 20px;
       font-size: 20px;
-      //font-weight: 700;
     }
   }
 }
 
 @media (max-width: 990px) {
-
   .rights__inner {
     padding-bottom: 40px;
   }
 
-  //.rights__img-wrapper {
-  //  text-align: center;
-  //  background-image: url("../img/rights/rights-bg.jpg");
-  //  background-position: center center;
-  //  font-size: 0;
-  //}
-
-  //.rights__content {
-  //  padding-right: 15px;
-  //}
-
   .rights__title {
     padding-bottom: 20px;
-    //font-family: $title-font;
     font-size: 22px;
-    //font-weight: 700;
-    //line-height: 1.2;
   }
 
   .rights__text {
-    //max-width: 100%;
     font-size: 15px;
-    //font-weight: 400;
 
     b {
-      //display: inline-block;
-      //max-width: 100%;
       padding: 15px 0;
       font-size: 17px;
-      //font-weight: 700;
     }
   }
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .rights__inner {
     padding-bottom: 35px;
   }
 
-  //.rights__img-wrapper {
-  //  text-align: center;
-  //  background-image: url("../img/rights/rights-bg.jpg");
-  //  background-position: center center;
-  //  font-size: 0;
-  //}
-
-  //.rights__content {
-  //  padding-right: 15px;
-  //}
-
   .rights__title {
     padding-bottom: 12px;
-    //font-family: $title-font;
     font-size: 18px;
-    //font-weight: 700;
-    //line-height: 1.2;
   }
 
   .rights__text {
-    //max-width: 100%;
-    //font-size: 15px;
-    //font-weight: 400;
-
     b {
-      //display: inline-block;
-      //max-width: 100%;
       padding: 10px 0;
       font-size: 15px;
-      //font-weight: 700;
     }
+  }
+
+}
+
+@media (max-width: 575px) {
+  .rights__inner {
+    padding-bottom: 25px;
+  }
+
+  .rights__title {
+    padding: 20px 0 10px;
+    text-align: center;
+  }
+
+  .rights__text {
+    text-align: center;
   }
 
 }

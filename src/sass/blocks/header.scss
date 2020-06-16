@@ -1,55 +1,52 @@
- .header__inner {
-   padding: 5px 0 10px;
- }
+.header__inner {
+  padding: 5px 0 10px;
+}
 
- .header__logo {
-   margin-right: auto;
- }
+.header__logo {
+  margin-right: auto;
+}
 
- .header__telephones {
+.header__telephones {
   margin-right: 30px;
- }
+}
 
- .header__button {
-   padding: 0 26px;
-   font-size: 11px;
-   line-height: 4.09;
-   border-radius: 23px;
- }
+.header__button {
+  padding: 0 26px;
+  font-size: 11px;
+  line-height: 4.09;
+  border-radius: 23px;
+}
 
- @media (max-width: 1230px) {
-   .header__inner {
-     padding: 5px 0;
-   }
+@media (max-width: 1230px) {
+  .header__inner {
+    padding: 5px 0;
+  }
+}
 
+@media (max-width: 990px) {
+  .header__button {
+    padding: 0 20px;
+    font-size: 10px;
+    line-height: 3.8;
+    border-radius: 19px;
+  }
+}
 
- }
+@media (max-width: 767px) {
+  .header__telephones {
+    margin-right: 15px;
+  }
 
- @media (max-width: 990px) {
-   //.header__inner {
-   //  padding: 5px 0;
-   //}
-   .header__button {
-     padding: 0 20px;
-     font-size: 10px;
-     line-height: 3.8;
-     border-radius: 19px;
-   }
- }
+  .header__button {
+    padding: 0 15px;
+    line-height: 3.4;
+    border-radius: 17px;
+  }
+}
 
- @media (max-width: 768px) {
-   //.header__inner {
-   //  padding: 5px 0;
-   //}
+@media (max-width: 575px) {
+  .header__telephones {
+    display: none;
+  }
 
-   .header__telephones {
-     margin-right: 15px;
-   }
-
-   .header__button {
-     padding: 0 15px;
-     //font-size: 10px;
-     line-height: 3.4;
-     border-radius: 17px;
-   }
- }
+}

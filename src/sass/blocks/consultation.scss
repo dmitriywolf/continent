@@ -15,10 +15,7 @@
 
 @media (max-width: 1230px) {
   .consultation {
-    //background-image: url("../img/consultation/consultation-bg.jpg");
-    //background-repeat: no-repeat;
     background-position: 25% center;
-    //background-size: cover;
   }
 
   .consultation__form {
@@ -28,10 +25,7 @@
 
 @media (max-width: 990px) {
   .consultation {
-    //background-image: url("../img/consultation/consultation-bg.jpg");
-    //background-repeat: no-repeat;
     background-position: 40% center;
-    //background-size: cover;
   }
 
   .consultation__form {
@@ -42,14 +36,18 @@
 
 @media (max-width: 990px) {
   .consultation {
-    //background-image: url("../img/consultation/consultation-bg.jpg");
-    //background-repeat: no-repeat;
     background-position: 32% center;
-    //background-size: cover;
   }
 
   .consultation__form {
     padding-top: 0;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .consultation {
+    background: none;
   }
 
 }

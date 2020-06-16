@@ -7,7 +7,6 @@
 .training__subtitle {
   max-width: 540px;
   margin: 0 auto;
-
   font-size: 22px;
   font-weight: 700;
   line-height: 1.23;
@@ -21,13 +20,8 @@
 
 @media (max-width: 1230px) {
   .training__subtitle {
-    //max-width: 540px;
-    //margin: 0 auto;
-
     font-size: 20px;
-    //font-weight: 700;
     line-height: 1.22;
-    //text-align: center;
   }
 
   .training__stages {
@@ -38,17 +32,22 @@
 
 @media (max-width: 990px) {
   .training__subtitle {
-    //max-width: 540px;
-    //margin: 0 auto;
-
     font-size: 18px;
-    //font-weight: 700;
     line-height: 1.2;
-    //text-align: center;
   }
 
   .training__stages {
-    //padding-top: 30px;
     padding-bottom: 30px;
   }
+}
+
+@media (max-width: 575px) {
+  .training__subtitle {
+    font-size: 16px;
+  }
+
+  .training__stages {
+    padding-bottom: 15px;
+  }
+
 }

@@ -32,86 +32,92 @@
 @media (max-width: 1230px) {
   .intro {
     padding: 90px 0 50px;
-    //background-color: #d8f0f0;
-    //background-image: url("../img/intro/intro-bg.jpg"),
-    //linear-gradient(-211deg, #d8f0f0 0%, #fdfde0 100%);
-    //background-size: cover;
-    //background-position: center center;
   }
 
   .intro__title {
-    //font-family: $title-font;
     font-size: 50px;
-    //font-weight: 700;
-    //line-height: 1;
   }
 
   .intro__subtitle {
-    //max-width: 450px;
     padding: 30px 0 60px;
-    //font-family: $title-font;
     font-size: 28px;
-    //font-weight: 700;
     line-height: 1.2;
-    //color: #00222d;
   }
 }
 
 @media (max-width: 990px) {
   .intro {
     padding: 70px 0 40px;
-    //background-color: #d8f0f0;
-    //background-image: url("../img/intro/intro-bg.jpg"),
-    //linear-gradient(-211deg, #d8f0f0 0%, #fdfde0 100%);
-    //background-size: cover;
     background-position: 35% center;
   }
 
   .intro__title {
-    //font-family: $title-font;
     font-size: 42px;
-    //font-weight: 700;
-    //line-height: 1;
   }
 
   .intro__subtitle {
-    //max-width: 450px;
     padding: 25px 0 45px;
-    //font-family: $title-font;
     font-size: 24px;
-    //font-weight: 700;
-    //line-height: 1.2;
-    //color: #00222d;
   }
 }
 
 
-
-
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .intro {
     padding: 60px 0 35px;
-    //background-color: #d8f0f0;
-    //background-image: url("../img/intro/intro-bg.jpg"),
-    //linear-gradient(-211deg, #d8f0f0 0%, #fdfde0 100%);
-    //background-size: cover;
-    //background-position: 35% center;
   }
 
   .intro__title {
-    //font-family: $title-font;
     font-size: 34px;
-    //font-weight: 700;
-    //line-height: 1;
   }
 
   .intro__subtitle {
-    //max-width: 450px;
     padding: 20px 0 40px;
-    //font-family: $title-font;
     font-size: 20px;
-    //font-weight: 700;
-    //line-height: 1.2;
-    //color: #00222d;
+  }
+}
+
+@media (max-width: 575px) {
+  .intro {
+    position: relative;
+    padding: 40px 0 30px;
+    height: calc(100vh - 60px);
+    min-height: 450px;
+    background-position: 70% center;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.25);
+      z-index: 1;
+    }
+
+    .container {
+      height: 100%;
+    }
+  }
+
+  .intro__inner {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+  }
+
+  .intro__title {
+    padding: 20px 0;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .intro__subtitle {
+    max-width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff;
   }
 }

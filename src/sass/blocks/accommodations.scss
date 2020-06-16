@@ -48,13 +48,11 @@
 
   .accommodations__title {
     font-size: 20px;
-    //font-weight: 700;
   }
 
   .accommodations__text {
     padding-top: 5px;
     font-size: 16px;
-    //font-weight: 300;
   }
 
 }
@@ -73,7 +71,6 @@
   .accommodations__img-wrapper {
     min-width: 80px;
     width: 80px;
-
     margin: 0 0 20px;
   }
 
@@ -83,18 +80,14 @@
 
   .accommodations__title {
     font-size: 18px;
-    //font-weight: 700;
   }
 
   .accommodations__text {
-    //padding-top: 5px;
     font-size: 15px;
-    //font-weight: 300;
   }
-
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .accommodations__list {
     padding-top: 25px;
     margin-bottom: 0;
@@ -105,25 +98,10 @@
   }
 
   .accommodations__img-wrapper {
-    //min-width: 80px;
-    //width: 80px;
-
     margin: 0 0 15px;
   }
 
-  //.accommodations__content {
-  //  text-align: center;
-  //}
-
   .accommodations__title {
     font-size: 16px;
-    //font-weight: 700;
   }
-
-  .accommodations__text {
-    //padding-top: 5px;
-    //font-size: 15px;
-    //font-weight: 300;
-  }
-
 }
