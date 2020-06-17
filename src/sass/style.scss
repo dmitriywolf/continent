@@ -1,7 +1,12 @@
 @import "global/variables";
+
 /*Bootstrap*/
 @import "../../node_modules/bootstrap/scss/bootstrap-reboot";
 @import "../../node_modules/bootstrap/scss/bootstrap-grid";
+
+/*Carousel Glide*/
+@import "../../node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
 /*Global*/
 @import "global/animate";
 @import "global/fonts";
@@ -9,7 +14,7 @@
 @import "global/button";
 @import "global/section";
 @import "global/form";
-@import "global/glide";
+
 /*Blocks*/
 @import "blocks/header";
 @import "blocks/logo";

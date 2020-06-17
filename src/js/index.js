@@ -150,6 +150,95 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     tabs();
 
+    /*Modals*/
+    const modals = () => {
+
+        function bindModal(triggerSelector, modalSelector, closeSelector) {
+
+            const trigger = document.querySelectorAll(triggerSelector),
+                modal = document.querySelector(modalSelector),
+                close = document.querySelector(closeSelector),
+                windows = document.querySelectorAll('.popup'),
+                scroll = calcScroll();
+
+            trigger.forEach(item => {
+                item.addEventListener('click', (e) => {
+                    if (e.target) {
+                        e.preventDefault();
+                    }
+
+                    //Скрываем все открытые окна если такие есть
+                    windows.forEach(item => {
+                        item.classList.remove('show');
+                    });
+
+                    modal.classList.add('show', 'animated');
+                    document.body.style.overflow = 'hidden';
+                    document.body.style.marginRight = `${scroll}px`;
+                });
+            });
+
+            close.addEventListener('click', () => {
+                modal.classList.remove('show');
+                document.body.style.overflow = '';
+                document.body.style.marginRight = '0px';
+
+            });
+
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    windows.forEach(item => {
+                        item.classList.remove('show');
+                    });
+
+                    modal.classList.remove('show');
+                    document.body.style.overflow = '';
+                    document.body.style.marginRight = '0px';
+                }
+            });
+        }
+
+        //Получаем ширину скролла
+        function calcScroll() {
+            let div = document.createElement('div');
+
+            div.style.width = '50px';
+            div.style.height = '50px';
+
+            div.style.overflowY = 'scroll';
+            div.style.visibility = 'hidden';
+
+            document.body.appendChild(div);
+            let scrollWidth = div.offsetWidth - div.clientWidth;
+            div.remove();
+            return scrollWidth;
+        }
+
+        bindModal('.button--callback', '.popup--callback', '.popup--callback .popup__close');
+
+    };
+    modals();
+
+    /*Carousel*/
+    const carousel = () => {
+        const configPartners = {
+            type: 'carousel',
+            startAt: 0,
+            perView: 3,
+            breakpoints: {
+                990: {
+                    perView: 2,
+                },
+                575: {
+                    perView: 1,
+                },
+            }
+        };
+        new Glide('.glide--thanks-federal', configPartners).mount();
+        new Glide('.glide--thanks-parents', configPartners).mount();
+    };
+    carousel();
+
     /*Forms*/
     const forms = () => {
 
@@ -244,27 +333,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     };
     forms();
-
-    /*Slider*/
-    const carousel = () => {
-        const configPartners = {
-            type: 'carousel',
-            startAt: 0,
-            perView: 3,
-            breakpoints: {
-                990: {
-                    perView: 2,
-                },
-                575: {
-                    perView: 1,
-                },
-            }
-        };
-        new Glide('.glide--thanks-federal', configPartners).mount();
-        new Glide('.glide--thanks-parents', configPartners).mount();
-    };
-    carousel();
-
-    /*Modals*/
-
 });
