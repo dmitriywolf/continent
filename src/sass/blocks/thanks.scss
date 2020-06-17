@@ -17,6 +17,29 @@
   padding-bottom: 8px;
 }
 
+.thanks__arrows {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.thanks__arrow {
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+}
+
+
 @media (max-width: 1230px) {
   .thanks__title {
     padding-top: 40px;
@@ -43,6 +66,24 @@
 
   .thanks__list {
     padding: 0;
+  }
+
+  .thanks__arrows {
+    position: static;
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+
+  .thanks__arrow {
+    width: 15px;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .thanks__arrows {
+    max-width: 160px;
   }
 
 }

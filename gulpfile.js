@@ -79,19 +79,19 @@ function cssBuild() {
 
 //Сборка JS
 //Порядок подключения js файлов
-const jsFiles = [
-    './src/js/lib/*.js',
-    './src/js/main.js'
-];
+// const jsFiles = [
+//     // './src/js/lib.js',
+//     './src/js/main.js'
+// ];
 
 function jsBuild() {
-    return gulp.src(jsFiles)
+    return gulp.src('./src/js/*.js')
     //Объединение файлов в один
-        .pipe(concat('script.js'))
+        .pipe(concat('main.js'))
         //Минификация JS
-        .pipe(uglify({
-            toplevel: true
-        }))
+        // .pipe(uglify({
+        //     toplevel: true
+        // }))
         //Выходная папка для скриптов
         .pipe(gulp.dest('./dist/js'))
 }

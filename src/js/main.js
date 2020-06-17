@@ -140,8 +140,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             function selectTabContent(tabName) {
                 tabContent.forEach(item => {
-                    item.classList.contains(tabName) ? item.classList.add('active', 'animated', 'bounceIn') :
-                        item.classList.remove('active', 'bounceIn');
+                    item.classList.contains(tabName) ? item.classList.add('active', 'animated', 'zoomIn') :
+                        item.classList.remove('active', 'zoomIn');
                 });
             }
         }
@@ -244,5 +244,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
     };
     forms();
+
+    /*Slider*/
+    const carousel = () => {
+        const configPartners = {
+            type: 'carousel',
+            startAt: 0,
+            perView: 3,
+            breakpoints: {
+                990: {
+                    perView: 2,
+                },
+                575: {
+                    perView: 1,
+                },
+            }
+        };
+        new Glide('.glide--thanks-federal', configPartners).mount();
+        new Glide('.glide--thanks-parents', configPartners).mount();
+    };
+    carousel();
+
+    /*Modals*/
 
 });
