@@ -1,15 +1,16 @@
 "use strict";
 let gulp = require('gulp');
-let sass = require('gulp-sass');
+let sass = require('gulp-sass'); //Компилятор SCSS --> CSS
 sass.compiler = require('node-sass');
-
-let autoPrefix = require('gulp-autoprefixer');
-let concat = require('gulp-concat');
-
-let rename = require('gulp-rename');
-let cleanCSS = require('gulp-clean-css');
-let browserSync = require('browser-sync').create();
-let del = require('del');
+let autoPrefix = require('gulp-autoprefixer'); //Расстановка префиксов
+let cleanCSS = require('gulp-clean-css'); //Минификация CSS
+let concat = require('gulp-concat'); //Обединение файлов
+let uglifyES = require('gulp-uglify-es').default; //Минификация JS (ES5+)
+let uglify = require('gulp-uglify'); //Обычная минификация JS
+//let babel = require('gulp-babel'); //Трансляция ES5+ --> ES5
+let rename = require('gulp-rename'); //Перетменовае файлов
+let del = require('del'); //Очистка
+let browserSync = require('browser-sync').create(); //Локальный сервер
 
 /*==================================================================================*/
 
@@ -41,17 +42,19 @@ function style() {
         .pipe(browserSync.reload({stream: true}))
 }
 
-//Scripts
-//порядок подключения JS
-let jsFiles = [
-    './node_modules/@glidejs/glide/dist/glide.min.js',
-    './src/js/index.js'
-];
+//JavaScript
+//Файлы библиотек
+function scriptLib() {
+    return gulp.src('./node_modules/@glidejs/glide/dist/glide.min.js')
+        .pipe(concat('lib.min.js'))
+        .pipe(gulp.dest('./dist/js/'))
+        .pipe(browserSync.reload({stream: true}))
+}
 
 function script() {
-    return gulp.src(jsFiles)
-    //Обьединение в один файл
-        .pipe(concat('index.js'))
+    return gulp.src('./src/js/main.js')
+        .pipe(concat('index.min.js'))
+        .pipe(uglifyES())
         .pipe(gulp.dest('./dist/js/'))
         .pipe(browserSync.reload({stream: true}))
 }
@@ -63,12 +66,12 @@ function watch() {
             baseDir: "./dist/"
         }
     });
-
     gulp.watch('./src/*.html', layoutHTML);
     gulp.watch('./src/sass/**/*.scss', style);
     gulp.watch('./src/js/*.js', script);
 }
 
+//Копирование изображений и шрифтов из src
 function copyImg() {
     return gulp.src("./src/img/**/*.*")
         .pipe(gulp.dest('./dist/img/'))
@@ -79,12 +82,13 @@ function copyFonts() {
         .pipe(gulp.dest('./dist/fonts/'))
 }
 
+//Очитка папки dist
 function clean() {
     return del(['./dist/*'])
 }
 
-//Таск для удаления файлов в папке build и запуск style и script
-gulp.task('build', gulp.series(clean, gulp.parallel(layoutHTML, style, script, copyImg, copyFonts)));
+//Таск для удаления файлов в папке dist и запуск сборки
+gulp.task('build', gulp.series(clean, gulp.parallel(layoutHTML, style, scriptLib, script, copyImg, copyFonts)));
 
 //Таск запускает таск build и watch последовательно
 gulp.task('default', gulp.series('build', watch));
