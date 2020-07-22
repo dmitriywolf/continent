@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
+
   /* Fixed Header */
-  const navHeader = () => {
+  const fixedHeader = () => {
     const header = document.getElementById('header');
     const intro = document.getElementById('intro');
 
     let introHeight = intro.offsetHeight;
     let scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
-    // Fixed TopHeader
     window.addEventListener('scroll', () => {
       introHeight = intro.offsetHeight;
       scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   };
-  navHeader();
+  fixedHeader();
 
   /* Smooth Scroll */
   const scrolling = () => {
@@ -106,6 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   scrolling();
+
 
   /* Tabs */
   const tabs = () => {
@@ -200,9 +201,10 @@ document.addEventListener('DOMContentLoaded', () => {
       return scrollWidth;
     }
 
-    bindModal('.button--callback', '.popup--callback', '.popup--callback .popup__close');
+    bindModal('.button--consultation', '.popup--consultation', '.popup--consultation .popup__close');
   };
   modals();
+
 
   /* Carousel */
   const carousel = () => {
