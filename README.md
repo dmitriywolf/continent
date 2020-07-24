@@ -12,12 +12,9 @@
 ### 3. Gulp 4
 	Собран на Gulp 4.
 
-### 4. JS
-	"Чистый" JavaScript.
-
-### 5. ESLint
+### 4. ESLint
 	Линтер ESLint
 
-### 6. Плагины:
+### 5. Плагины:
 	
 1. Слайдер-Карусель: [Glide.js](https://glidejs.com/).
