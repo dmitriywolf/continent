@@ -19,6 +19,18 @@ function html() {
       .pipe(browserSync.reload({stream: true}))
 }
 
+//Copy files
+function copyFile() {
+  const file = [
+    './src/*.ico',
+    './src/*.php'
+  ];
+
+  return gulp.src(file)
+      .pipe(gulp.dest(dist))
+      .pipe(browserSync.reload({stream: true}))
+}
+
 //Styles
 function style() {
   return gulp.src('./src/sass/style.scss')
@@ -95,6 +107,6 @@ function watch() {
   gulp.watch('./src/js/*.js', scripts);
 }
 
-gulp.task('build', gulp.series(clean, gulp.parallel(html, style, scripts, img, fonts)));
+gulp.task('build', gulp.series(clean, gulp.parallel(html, copyFile, style, scripts, img, fonts)));
 
 gulp.task('default', gulp.series('build', watch));

@@ -1,8 +1,5 @@
 # Seven Continents
-- Вёрстка Landing Page: [Seven Continents](https://dmitriywolf.github.io/continent/dist/index.html)
-
 ## Описание
-
 ### 1. SASS
 	Стили написаны на препроцессоре Sass(SCSS).
 
@@ -13,7 +10,7 @@
 	Собран на Gulp 4.
 
 ### 4. Webpack + Babel
-	Для сборки модулей использован webpack.
+	Для сборки модулей использован Webpack.
 
 ### 5. Плагины:
     1. Слайдер-Карусель: Glide.js
