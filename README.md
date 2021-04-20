@@ -1,5 +1,5 @@
 # Seven Continents
-- Вёрстка Landing Page: [Seven Continents](https://dmitriywolf.github.io/landingpages/continent/)
+- Вёрстка Landing Page: [Seven Continents](https://dmitriywolf.github.io/continent/dist/index.html)
 
 ## Описание
 
